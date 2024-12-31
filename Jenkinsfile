@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage ("first") {
       steps {
-        echo "JENKINS"
+        echo "JENKINS BOTAME TU MEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE"
       }
     }
   }
