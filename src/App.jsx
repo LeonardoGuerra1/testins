@@ -23,6 +23,9 @@ function App() {
 
         <div className='w-full mt-5'>
 
+          <span>
+            ANIUJHFASHINFNJD
+          </span>
           <Search setUsers={setUsers} onClean={() => callUsers()} />
 
           <table className='w-2/3 mx-auto border bg-slate-100 rounded-lg overflow-hidden'>
