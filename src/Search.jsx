@@ -9,9 +9,7 @@ function Search({ setUsers, onClean }) {
     if (search.length === 0) return
     fetch(`${API_URL}?q=${search}`)
     .then(res => res.json())
-    .then(data => {
-      setUsers(data)
-    })
+    .then(setUsers)
   }
 
   useEffect(() => {
